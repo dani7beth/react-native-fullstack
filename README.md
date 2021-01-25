@@ -1,24 +1,28 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## RAILS API
+from root folder 
+`bundle`
+`rails db:create db:migrate db:seed `
 
-Things you may want to cover:
 
-* Ruby version
+## REACT NATIVE
+In mobole folder
+`cd mobile`
+`yarn`
+`npx run react-native run-ios` # runs iphone
 
-* System dependencies
 
-* Configuration
+## WEB APP
+from client folder 
+`cd client`
+`yarn`
+to run app
+`yarn start`
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## ELECTRON
+from desktop folder 
+`cd desktop`
+`yarn`
+to run app
+`yarn start`
