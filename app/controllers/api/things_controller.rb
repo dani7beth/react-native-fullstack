@@ -3,9 +3,9 @@ class Api::ThingsController < ApplicationController
     render json: Thing.all.order(likes: :desc)
   end
 
-  def likes
+  def like
     thing = Thing.find(params[:thing_id])
-    thing.update(likes: things.likes + 1)
+    thing.update(likes: thing.likes + 1)
     render json: thing
   end
 
